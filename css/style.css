@@ -41,19 +41,20 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0; }
 
 figure {
-  margin-bottom: 2.5em;
-  float: left;
-  width: 100%; }
+  
+  display: block;
+  text-align: center;}
   figure figcaption {
-    font-size: 16px;
-    width: 80%;
-    margin: 20px auto 0px auto;
+    font-size: 12px;
+    width: 100%;
+    margin: 0px auto 0px auto;
     color: #b3b3b3;
     font-style: italic;
-    font-family: "Quicksand", Arial, sans-serif; }
+    font-family: "Quicksand", Arial, sans-serif;
+    text-align: center; }
     @media screen and (max-width: 480px) {
       figure figcaption {
-        width: 100%; } }
+        display: block;} }
 
 ::-webkit-selection {
   color: #fff;
