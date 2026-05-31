@@ -1,4 +1,4 @@
-// Portfolio · v2 — Mohamed Shehata-inspired (light mode)
+// Portfolio · v2 
 // Centered dark pill nav · massive grotesque hero · B&W portrait · iconographic contact list
 
 const Portfolio = (() => {
@@ -16,18 +16,6 @@ const Portfolio = (() => {
     fly: {
       head: <>Designing how new aircraft <span className="accent">fly.</span></>,
       lede: <>I'm an aerospace engineer with a deep passion for <span className="accent-soft">aviation</span> — building the <span className="accent-soft">flight dynamics models</span>, <span className="accent-soft">control laws</span> and <span className="accent-soft">engineering simulators</span> that take VTOL aircraft from clean-sheet design to <span className="accent-soft">certified flight</span>. A decade across rotorcraft research, real-time simulation and flight test.</>
-    },
-    flightworthy: {
-      head: <>Making new aircraft <span className="accent">flightworthy.</span></>,
-      lede: <>Flight physics engineer at <span className="accent-soft">Volocopter</span>, working on the <span className="accent-soft">VoloCity</span> and <span className="accent-soft">XPro</span> eVTOL programmes. I model how aircraft fly, design the laws that keep them stable, and build the simulators that prove it — through certification under EASA SC-VTOL.</>
-    },
-    earnWings: {
-      head: <>Helping the next generation of aircraft <span className="accent">earn their wings.</span></>,
-      lede: <>Aviation has been the thing since I was a kid. Today I'm a flight physics engineer building the <span className="accent-soft">dynamics models</span>, <span className="accent-soft">control laws</span> and <span className="accent-soft">simulators</span> behind two electric VTOL programmes — taking aircraft from a clean sheet of paper to the moment they're cleared to fly.</>
-    },
-    physics: {
-      head: <>Flight physics for the aircraft of <span className="accent">tomorrow.</span></>,
-      lede: <>I'm a flight simulation engineer at <span className="accent-soft">Volocopter</span>. My work sits where aerodynamics meets the control loop — flight dynamics modeling, control law design and engineering simulators that take <span className="accent-soft">VTOL aircraft</span> from prototype to <span className="accent-soft">certification</span>. A decade across rotorcraft research, real-time simulation and flight test.</>
     }
   };
 
@@ -225,9 +213,9 @@ const Portfolio = (() => {
             <span className="pf-hero-strip-k" style={{ fontSize: "15px" }}>Based</span>
             <span className="pf-hero-strip-v" style={{ fontSize: "15px" }}>Karlsruhe, DE</span>
           </div>
-          <div className="pf-hero-strip-item" style={{ fontSize: "15px" }}>
-            <span className="pf-hero-strip-k">Since</span>
-            <span className="pf-hero-strip-v">Dec 2021</span>
+          <div className="pf-hero-strip-item">
+            <span className="pf-hero-strip-k"style={{ fontSize: "15px" }}>Since</span>
+            <span className="pf-hero-strip-v"style={{ fontSize: "15px" }}>Dec 2021</span>
           </div>
           <div className="pf-hero-strip-item">
             <span className="pf-hero-strip-k" style={{ fontSize: "15px" }}>Education</span>

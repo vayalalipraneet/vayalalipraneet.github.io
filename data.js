@@ -5,7 +5,6 @@ window.PORTFOLIO_DATA = {
   company: "Volocopter GmbH",
   location: "Karlsruhe, Baden-Württemberg, Germany",
   email: "vayalalipraneet@gmail.com",
-  phone: "+49 178 228 0619",
   linkedin: "https://www.linkedin.com/in/praneetvayalali/",
   scholar: "https://scholar.google.com/citations?user=oqfmzbAAAAAJ",
   cv: "./praneet_vayalali_resume.pdf",
