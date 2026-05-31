@@ -198,7 +198,7 @@ button { font-family: inherit; }
 .pf-display {
   font-family: var(--pf-display);
   font-weight: 700;
-  font-size: clamp(72px, 11vw, 192px);
+  font-size: clamp(44px, 9vw, 134px);
   line-height: 0.92;
   letter-spacing: -0.04em;
   margin: 0;
