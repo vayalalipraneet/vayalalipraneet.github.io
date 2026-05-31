@@ -14,7 +14,7 @@ const Portfolio = (() => {
   // Alternate opening lines — pick via Tweaks
   const HERO_LINES = {
     fly: {
-      head: <>Designing how new aircraft <span className="accent" style={{ fontSize: "130px" }}>fly.</span></>,
+      head: <>Designing how new aircraft <span className="accent">fly.</span></>,
       lede: <>I'm an aerospace engineer with a deep passion for <span className="accent-soft">aviation</span> — building the <span className="accent-soft">flight dynamics models</span>, <span className="accent-soft">control laws</span> and <span className="accent-soft">engineering simulators</span> that take VTOL aircraft from clean-sheet design to <span className="accent-soft">certified flight</span>. A decade across rotorcraft research, real-time simulation and flight test.</>
     },
     flightworthy: {
@@ -209,7 +209,7 @@ const Portfolio = (() => {
         </Reveal>
 
         <Reveal delay={80}>
-          <h1 className="pf-display" style={{ fontSize: "130px" }}>{line.head}</h1>
+          <h1 className="pf-display">{line.head}</h1>
         </Reveal>
 
         <Reveal delay={140}>
